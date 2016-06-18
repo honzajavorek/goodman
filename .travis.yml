@@ -1,5 +1,12 @@
 language: go
 
+go:
+  - 1.5
+  - 1.6
+
+env:
+  - GO15VENDOREXPERIMENT=1
+
 install:
   - npm install
   - bundle install
