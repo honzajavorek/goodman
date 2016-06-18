@@ -5,7 +5,7 @@ install:
   - bundle install
   - go get -u github.com/kardianos/govendor
   - go install github.com/kardianos/govendor
-  - cd && $GOPATH/bin/govendor sync
+  - cd example && $GOPATH/bin/govendor sync
 
 go_import_path: github.com/snikch/goodman
 script:
